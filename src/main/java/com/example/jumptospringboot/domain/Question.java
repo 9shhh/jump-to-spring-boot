@@ -30,4 +30,8 @@ public class Question extends BaseEntity {
         this.content = content;
         this.setCreatedAt(createdAt);
     }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
 }
